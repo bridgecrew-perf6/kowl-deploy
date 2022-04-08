@@ -98,7 +98,7 @@ kowl:
   config: 
     kafka:
       brokers:
-        - kafka-cp-kafka-headless:9092
+        - kafka-1-headless:9095,kafka-2-headless:9095
       schemaRegistry:
         enabled: false
         urls: [http://schema-registry-cp-schema-registry:8081]
